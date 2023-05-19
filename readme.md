@@ -75,3 +75,18 @@ Puntos importantes:
  * El HTML debe estar bien escrito.
 
  * Se debe usar CSS para mejorar el aspecto visual del sitio web sin utilizar ningún framework como bootstrap o materialize etc.
+
+ ## Funcionamiento
+
+ Este proyecto es una implementación de un servidor http, hecho con javascript. El servidor escucha el puerto 8888 y maneja las solicitudes entrantes.
+
+
+ ## Ejecución
+
+ Este proyecto fue subido a *Dockerhub* que cuenta con el siguiente [link](https://hub.docker.com/r/jessynunez/proyecto_seg_par)
+
+ Para ejecutar la imagen, escribir el siguiente comando en terminal:
+
+ ```
+ sudo docker run -ti jessynunez/proyecto_seg_par
+ ```
