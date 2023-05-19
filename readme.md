@@ -88,5 +88,5 @@ Puntos importantes:
  Para ejecutar la imagen, escribir el siguiente comando en terminal:
 
  ```
- sudo docker run -ti jessynunez/proyecto_seg_par
+ sudo docker run -d -p 8888:8888 jessynunez/proyecto_seg_par
  ```
